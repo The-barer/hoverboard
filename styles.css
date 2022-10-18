@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  align-items: center;
+  justify-content: center;
+  height: 99vh;
+  overflow: hidden;
+  color: white;
+  margin: 8px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  background-color: aliceblue;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  box-shadow: 0 0 5px aliceblue, 0 0 15px aliceblue;
+  transition: all 3s ease-in;
+}
+.square:hover {
+  transition-duration: 0s;
+}
+.controls {
+  width: 80%;
+  padding: 5px 20px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.controls .about {
+  width: fit-content;
+  margin:  20px auto;
+  color: white;
+  text-align: center;
+  background-color: rgba(81, 81, 81, 0.3);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.controls .inputrange {
+  width: 200px;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+.controls .inputvalue {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+.controls .buttons {
+  display: flex ;
+  margin: auto;
+  width: fit-content;
+}
+
+.controls .buttons button {
+  margin: 1px 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+.controls .buttons button:hover {
+  box-shadow: 0 0 15px white;
+  cursor: pointer;
+}

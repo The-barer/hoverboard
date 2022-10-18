@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Доска | Проект 4</title>
+</head>
+<body>
+  <div class="controls">
+    <div class="about" style="display: none;">
+      Press 'Enter' to add.<br> 
+      Press 'A' to show/hide about text. <br>
+      Press 'C', to clear board. <br>
+      Press 'M', to Max fill window with squares</div>
+    <div class="inputvalue">
+      <div></div>
+      <input class="inputrange" type='range' min='1' max="256">
+    </div>
+    <div class="buttons">
+      <button class="addbtn">Add and Shape</button>
+      <button class="addmaxbtn">Add Max</button>
+      <button class="clearbtn">Clear</button>
+      <button class="aboutbtn">About</button>
+    </div>
+  </div>
+  <div class="container" id="board">
+</div>
+<script src="app.js"></script>
+</body>
+</html>
